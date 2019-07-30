@@ -1,15 +1,12 @@
-const button = document.querySelector('input');
-const paragraph = document.querySelector('p');
+const button = document.getElementById('clear-button');
 
-document.onload=function(){
+window.onload = function(){
     button.addEventListener('click', updateButton);
 }
 function updateButton() {
     if (button.value === 'C') {
-        button.value = 'CE';
-        console.log("C is Pressed");
+      button.value = 'CE';
     } else {
-        button.value = 'C';
-        console.log("CE is Pressed");
+      button.value = 'C';
     }
-}
+  }
