@@ -7,9 +7,9 @@ document.onload=function(){
 function updateButton() {
     if (button.value === 'C') {
         button.value = 'CE';
-        paragraph.textContent = 'The machine has started!';
+        console.log("C is Pressed");
     } else {
         button.value = 'C';
-        paragraph.textContent = 'The machine has stopped.';
+        console.log("CE is Pressed");
     }
 }

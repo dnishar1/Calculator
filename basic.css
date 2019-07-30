@@ -25,3 +25,9 @@ html, body {
 .container > div:nth-child(4) {
   background-color: #ff6f69;
 }
+
+.container {
+  border: 1px solid #ffcc5c;
+  display: flex;
+  justify-content: center;
+}
