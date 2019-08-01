@@ -10,3 +10,7 @@ function updateButton() {
       button.value = 'C';
     }
   }
+
+function display(value){
+  document.getElementById("answer").value += value
+}
