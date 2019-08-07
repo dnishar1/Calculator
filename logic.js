@@ -5,7 +5,7 @@ window.onload = function(){
 }
 function updateButton() {
     if (button.value === 'C') {
-      button.value = 'CE';
+      button.value = 'CE'; 
     } else {
       button.value = 'C';
     }
