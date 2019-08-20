@@ -1,4 +1,3 @@
-
 function display(value){
   document.getElementById("answer").value += value;
 }
