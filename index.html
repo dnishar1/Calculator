@@ -9,27 +9,27 @@
         <div class="calculator">
 
             <form>
-                <input type="text" id="answer" maxlength="10" disabled />
+                <input type="text" id="answer" maxlength="10" disabled/>
                 <input id="clear-button" type="button" value="C" onclick="clearScreen()">
             </form>
             
             <form>
-                <input type="button" value = "7"  onclick="" />
-                <input type="button" value = "8"  onclick=""/>
-                <input type="button" value = "9"  onclick=""/>
-                <input type="button" value = "/"  onclick=""/><br />
-                <input type="button" value = "4"  onclick=""/>
-                <input type="button" value = "5"  onclick=""/>
-                <input type="button" value = "6"  onclick=""/>
-                <input type="button" value = "x"  onclick=""/><br />
-                <input type="button" value = "1"  onclick=""/>
-                <input type="button" value = "2"  onclick=""/>
-                <input type="button" value = "3"  onclick=""/>
-                <input type="button" value = "-"  onclick=""/><br />
-                <input type="button" value = "0"  onclick=""/>
-                <input type="button" value = ". " onclick=""/>
-                <input type="button" value = "="  onclick=""/>
-                <input type="button" value = "+"  onclick=""/>
+                <input type="button" value = "7" onclick="number(this.value)" />
+                <input type="button" value = "8" onclick="number(this.value)"/>
+                <input type="button" value = "9" onclick="number(this.value)"/>
+                <input type="button" value = "/" onclick="divide"/><br />
+                <input type="button" value = "4" onclick="number(this.value)"/>
+                <input type="button" value = "5" onclick="number(this.value)"/>
+                <input type="button" value = "6" onclick="number(this.value)"/>
+                <input type="button" value = "x" onclick="multiply"/><br />
+                <input type="button" value = "1" onclick="number(this.value)"/>
+                <input type="button" value = "2" onclick="number(this.value)"/>
+                <input type="button" value = "3" onclick="number(this.value)"/>
+                <input type="button" value = "-" onclick="subtract()"/><br />
+                <input type="button" value = "0" onclick="number(this.value)"/>
+                <input type="button" value = "." onclick="decimal()"/>
+                <input type="button" value = "=" onclick="equals()"/>
+                <input type="button" value = "+" onclick="add()"/>
             </form>
 
         </div>
