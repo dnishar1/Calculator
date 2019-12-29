@@ -12,7 +12,7 @@ var operation = null;
 
 // Clear screen should clear the screen and reset the input field to 0
 // TODO: Right now this function just hides the pressed digits. It does not clear the screen
-//       I want to clear the screen and reset the input values
+//       I want to clear the screen and reset the input values 
 function clearScreen(){
   document.getElementById("answer").value = "0";
   operator1 = "";
