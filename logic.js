@@ -4,8 +4,6 @@ function evaluate(){
   document.getElementById("answer").value = equal;
 }
 
-/* NEW FUNCTIONALITY */
-
 var operator1 = null;
 var operator2 = null;
 var operation = null;
