@@ -16,7 +16,6 @@ function clearScreen(){
   operator1 = "";
   operator2 = "";
 }
-
 // This function displays the value pressed on the page. It only displays 0-9
 function display(value){
   document.getElementById("answer").value = value;
